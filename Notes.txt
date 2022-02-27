@@ -60,4 +60,8 @@ Index
     boolean:
         ->  only two possible values: true and false
 
+    References:
+        https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+        
+
     
