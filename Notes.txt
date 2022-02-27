@@ -1,0 +1,27 @@
+Index
+    1. Introduction
+        a. Features
+        b. Anatomy
+
+
+1. Introduction
+    --> Develop by James Gosling at Sun Microsystems at 1995
+    --> Usage: Web, Mobile, Desktop, Game, Distributed Processing
+
+1.a) Features of Java:
+    --> Robust: provide good exception handling framework out of the box
+    --> Secured: Remove pointers from java which leads to memory leaks
+    --> Multi-Threading: you can can run multiple tasks paralleled using multi-Threading
+    --> Garbage Collector: provide GC which will auto remove/delete unused params from program
+    --> Object-Oriented: everything in java runs around Java
+    --> Platform Independent: Byte code will runs anywhere (e.g. Linux/Window/Mac)
+    --> Strong type-checking: force you to respect the contract of the variables to the data-types.  
+    --> compile & interpret
+
+1.b) Anatomy of Java:
+    JDK
+        JRE
+            JVM
+            Class Libraries
+            Other Libraries
+
