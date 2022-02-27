@@ -1,0 +1,6 @@
+*/bin
+*.class
+.vscode/settings.json
+.cspell/custom-dictionary-workspace.txt
+*.class
+*.class

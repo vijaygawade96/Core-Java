@@ -2,7 +2,9 @@ Index
     1. Introduction
         a. Features
         b. Anatomy
-
+    2. Data types
+        a. Primitive Data Types
+        b. Non-Primitive Data Types
 
 1. Introduction
     --> Develop by James Gosling at Sun Microsystems at 1995
@@ -25,3 +27,37 @@ Index
             Class Libraries
             Other Libraries
 
+2.a) Primitive Data Types
+    char: 
+        -> single 16-bit Unicode character
+        -> size 2 bytes
+        -> Range: '\u0000' (or 0) to a maximum value of '\uffff' (or 65,535 inclusive)
+
+    byte:
+        -> 8-bit signed two's complement integer
+        -> Range: -128 to 127 (inclusive)
+
+    short:
+        -> 16-bit signed two's complement integer
+        -> Range: -32,768 to 32,767 (inclusive)
+
+    int:
+        -> 32-bit signed two's complement integer
+        -> Range:  -2^31 to 2^31 -1
+
+    long:
+        -> 64-bit two's complement integer
+        -> -2^63 and a maximum value of 2^63 -1
+
+    float:
+        -> a single-precision 32-bit IEEE 754 floating point
+        -> Range: 0.000000 to 340282346638528860000000000000000000000.000000
+
+    double:
+        -> a double-precision 64-bit IEEE 754 floating point
+        -> Range: 0.000000 to 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000
+
+    boolean:
+        ->  only two possible values: true and false
+
+    
